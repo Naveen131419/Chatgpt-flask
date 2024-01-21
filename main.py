@@ -6,7 +6,7 @@ import traceback
 from contextlib import redirect_stdout
 import io
 
-openai.api_key = "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"
+openai.api_key = ""  #add api key here
 app = Flask(__name__)
 
 app.config["MONGO_URI"] = "mongodb+srv://naveendevadi18:Naveenlm10@naveendevd.e46pwol.mongodb.net/chatgpt"
